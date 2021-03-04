@@ -3,6 +3,12 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '3.0.0'
 
+# Redis (=
+gem "redis", '~> 4.2.5'
+# Cable Ready
+gem "cable_ready", '~> 4.5.0'
+# Stimulus Reflex
+gem "stimulus_reflex", '~> 3.4.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.3'
 # Use postgresql as the database for Active Record
